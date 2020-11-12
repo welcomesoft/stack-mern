@@ -8,6 +8,7 @@
     "url": "https://github.com/welcomesoft/stack-mern"
   },
   "scripts": {
+    "start": "nodemon src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

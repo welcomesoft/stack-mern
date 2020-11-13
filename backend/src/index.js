@@ -5,8 +5,7 @@ require('dotenv').config();
 const app = require('./app');
 require('./database');
 
-// define una variable y le pasa un puerto para nuesto servidor
-app.set('PORT', 4000);
+
 
 /**
  * Funcion principal main():
@@ -15,7 +14,7 @@ app.set('PORT', 4000);
  * en caso de no haber uno, le pasa el puerto en una variable.
  */
 async function main() {
-    await app.listen(process.env.PORT || app.get('PORT'));
+    await app.listen(app.get('PORT'));
     console.log('Server running on port', app.get('PORT'));
 }
 

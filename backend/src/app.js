@@ -20,8 +20,8 @@ app.use(express.json());    // permite enviar archivos json.
 
 
 // routes
-app.use(require('./routes/user-routes'));
-app.use(require('./routes/note-routes'));
+app.use(require('./routes/users-routes'));
+app.use(require('./routes/notes-routes'));
 
 
 

@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/welcomesoft/stack-mern"
+    "url": "https://github.com/welcomesoftware/stack-mern"
   },
   "scripts": {
     "start": "nodemon src/index",

@@ -37,7 +37,7 @@ notes_controller.updateNote = async (req, res) => {
     const { id } = req.params;
     const { title, content, author } = req.body;
 
-    await note_model.findOneAndUpdate(id, {
+    await note_model.findByIdAndUpdate(id, {
         title,
         content,
         author
